@@ -28,117 +28,52 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.ListViewItem listViewItem1 = new System.Windows.Forms.ListViewItem(new string[] {
-            "1",
-            "0001",
-            "Sân 1 ",
-            "450.000",
-            "Đang sử dụng",
-            "Sân đẹp",
-            "Hài lòng",
-            "Nên thay lưới gôn"}, -1);
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.thêmToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.xoaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.sưaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.lưuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.thoatToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.txtMasan = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.listView1 = new System.Windows.Forms.ListView();
-            this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader5 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader6 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader7 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader8 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.menuStrip1.SuspendLayout();
+            this.txtTensan = new System.Windows.Forms.TextBox();
+            this.txtGia = new System.Windows.Forms.TextBox();
+            this.txtTrangthai = new System.Windows.Forms.TextBox();
+            this.txtMota = new System.Windows.Forms.TextBox();
+            this.txtYkien = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.txtDexuat = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.btnThem = new System.Windows.Forms.Button();
+            this.btnSua = new System.Windows.Forms.Button();
+            this.btnXoa = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(37, 40);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Location = new System.Drawing.Point(18, 25);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(54, 17);
+            this.label1.Size = new System.Drawing.Size(64, 20);
             this.label1.TabIndex = 0;
             this.label1.Text = "Mã sân";
             // 
-            // textBox1
+            // txtMasan
             // 
-            this.textBox1.Location = new System.Drawing.Point(98, 37);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(141, 20);
-            this.textBox1.TabIndex = 1;
-            // 
-            // menuStrip1
-            // 
-            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.thêmToolStripMenuItem,
-            this.xoaToolStripMenuItem,
-            this.sưaToolStripMenuItem,
-            this.lưuToolStripMenuItem,
-            this.thoatToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 2, 0, 2);
-            this.menuStrip1.Size = new System.Drawing.Size(799, 24);
-            this.menuStrip1.TabIndex = 2;
-            this.menuStrip1.Text = "menuStrip1";
-            // 
-            // thêmToolStripMenuItem
-            // 
-            this.thêmToolStripMenuItem.Name = "thêmToolStripMenuItem";
-            this.thêmToolStripMenuItem.Size = new System.Drawing.Size(49, 20);
-            this.thêmToolStripMenuItem.Text = "Thêm";
-            // 
-            // xoaToolStripMenuItem
-            // 
-            this.xoaToolStripMenuItem.Name = "xoaToolStripMenuItem";
-            this.xoaToolStripMenuItem.Size = new System.Drawing.Size(39, 20);
-            this.xoaToolStripMenuItem.Text = "Xóa";
-            // 
-            // sưaToolStripMenuItem
-            // 
-            this.sưaToolStripMenuItem.Name = "sưaToolStripMenuItem";
-            this.sưaToolStripMenuItem.Size = new System.Drawing.Size(38, 20);
-            this.sưaToolStripMenuItem.Text = "Sửa";
-            // 
-            // lưuToolStripMenuItem
-            // 
-            this.lưuToolStripMenuItem.Name = "lưuToolStripMenuItem";
-            this.lưuToolStripMenuItem.Size = new System.Drawing.Size(39, 20);
-            this.lưuToolStripMenuItem.Text = "Lưu";
-            // 
-            // thoatToolStripMenuItem
-            // 
-            this.thoatToolStripMenuItem.Name = "thoatToolStripMenuItem";
-            this.thoatToolStripMenuItem.Size = new System.Drawing.Size(49, 20);
-            this.thoatToolStripMenuItem.Text = "Thoát";
+            this.txtMasan.Location = new System.Drawing.Point(116, 21);
+            this.txtMasan.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtMasan.Multiline = true;
+            this.txtMasan.Name = "txtMasan";
+            this.txtMasan.Size = new System.Drawing.Size(187, 24);
+            this.txtMasan.TabIndex = 1;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(286, 41);
-            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label2.Location = new System.Drawing.Point(317, 25);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(60, 17);
+            this.label2.Size = new System.Drawing.Size(69, 20);
             this.label2.TabIndex = 3;
             this.label2.Text = "Tên sân";
             // 
@@ -146,10 +81,9 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(546, 41);
-            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label3.Location = new System.Drawing.Point(647, 25);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(30, 17);
+            this.label3.Size = new System.Drawing.Size(35, 20);
             this.label3.TabIndex = 5;
             this.label3.Text = "Giá";
             // 
@@ -157,10 +91,9 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(138, 96);
-            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label4.Location = new System.Drawing.Point(17, 70);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(73, 17);
+            this.label4.Size = new System.Drawing.Size(84, 20);
             this.label4.TabIndex = 7;
             this.label4.Text = "Trạng thái";
             // 
@@ -168,142 +101,156 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(415, 97);
-            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label5.Location = new System.Drawing.Point(320, 67);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(43, 17);
+            this.label5.Size = new System.Drawing.Size(51, 20);
             this.label5.TabIndex = 9;
             this.label5.Text = "Mô tả";
             // 
             // listView1
             // 
-            this.listView1.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.columnHeader1,
-            this.columnHeader2,
-            this.columnHeader3,
-            this.columnHeader4,
-            this.columnHeader5,
-            this.columnHeader6,
-            this.columnHeader7,
-            this.columnHeader8});
             this.listView1.GridLines = true;
             this.listView1.HideSelection = false;
-            this.listView1.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem1});
-            this.listView1.Location = new System.Drawing.Point(10, 134);
-            this.listView1.Margin = new System.Windows.Forms.Padding(2);
+            this.listView1.Location = new System.Drawing.Point(13, 165);
+            this.listView1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(772, 288);
+            this.listView1.Size = new System.Drawing.Size(1028, 354);
             this.listView1.TabIndex = 11;
             this.listView1.UseCompatibleStateImageBehavior = false;
             this.listView1.View = System.Windows.Forms.View.Details;
+            this.listView1.SelectedIndexChanged += new System.EventHandler(this.listView1_SelectedIndexChanged);
             // 
-            // columnHeader1
+            // txtTensan
             // 
-            this.columnHeader1.Text = "STT";
+            this.txtTensan.Location = new System.Drawing.Point(405, 21);
+            this.txtTensan.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtTensan.Multiline = true;
+            this.txtTensan.Name = "txtTensan";
+            this.txtTensan.Size = new System.Drawing.Size(187, 24);
+            this.txtTensan.TabIndex = 12;
             // 
-            // columnHeader2
+            // txtGia
             // 
-            this.columnHeader2.Text = "Mã sân";
-            this.columnHeader2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.columnHeader2.Width = 80;
+            this.txtGia.Location = new System.Drawing.Point(702, 25);
+            this.txtGia.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtGia.Multiline = true;
+            this.txtGia.Name = "txtGia";
+            this.txtGia.Size = new System.Drawing.Size(187, 24);
+            this.txtGia.TabIndex = 13;
             // 
-            // columnHeader3
+            // txtTrangthai
             // 
-            this.columnHeader3.Text = "Tên sân";
-            this.columnHeader3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.columnHeader3.Width = 100;
+            this.txtTrangthai.Location = new System.Drawing.Point(116, 65);
+            this.txtTrangthai.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtTrangthai.Multiline = true;
+            this.txtTrangthai.Name = "txtTrangthai";
+            this.txtTrangthai.Size = new System.Drawing.Size(187, 24);
+            this.txtTrangthai.TabIndex = 14;
             // 
-            // columnHeader4
+            // txtMota
             // 
-            this.columnHeader4.Text = "Giá";
-            this.columnHeader4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.columnHeader4.Width = 80;
+            this.txtMota.Location = new System.Drawing.Point(405, 61);
+            this.txtMota.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtMota.Multiline = true;
+            this.txtMota.Name = "txtMota";
+            this.txtMota.Size = new System.Drawing.Size(187, 24);
+            this.txtMota.TabIndex = 15;
             // 
-            // columnHeader5
+            // txtYkien
             // 
-            this.columnHeader5.Text = "Trạng thái";
-            this.columnHeader5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.columnHeader5.Width = 100;
+            this.txtYkien.Location = new System.Drawing.Point(815, 61);
+            this.txtYkien.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtYkien.Multiline = true;
+            this.txtYkien.Name = "txtYkien";
+            this.txtYkien.Size = new System.Drawing.Size(187, 24);
+            this.txtYkien.TabIndex = 17;
             // 
-            // columnHeader6
+            // label6
             // 
-            this.columnHeader6.Text = "Mô tả";
-            this.columnHeader6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.columnHeader6.Width = 100;
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(650, 65);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(144, 20);
+            this.label6.TabIndex = 16;
+            this.label6.Text = "Ý kiến khách hàng";
             // 
-            // columnHeader7
+            // txtDexuat
             // 
-            this.columnHeader7.Text = "Ý kiến khách hàng";
-            this.columnHeader7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.columnHeader7.Width = 120;
+            this.txtDexuat.Location = new System.Drawing.Point(116, 103);
+            this.txtDexuat.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtDexuat.Multiline = true;
+            this.txtDexuat.Name = "txtDexuat";
+            this.txtDexuat.Size = new System.Drawing.Size(187, 24);
+            this.txtDexuat.TabIndex = 19;
             // 
-            // columnHeader8
+            // label7
             // 
-            this.columnHeader8.Text = "Đề xuất";
-            this.columnHeader8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.columnHeader8.Width = 100;
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(18, 107);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(66, 20);
+            this.label7.TabIndex = 18;
+            this.label7.Text = "Đề xuất";
             // 
-            // textBox2
+            // btnThem
             // 
-            this.textBox2.Location = new System.Drawing.Point(352, 37);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(141, 20);
-            this.textBox2.TabIndex = 12;
+            this.btnThem.Location = new System.Drawing.Point(357, 116);
+            this.btnThem.Name = "btnThem";
+            this.btnThem.Size = new System.Drawing.Size(104, 33);
+            this.btnThem.TabIndex = 20;
+            this.btnThem.Text = "Thêm";
+            this.btnThem.UseVisualStyleBackColor = true;
+            this.btnThem.Click += new System.EventHandler(this.btnThem_Click);
             // 
-            // textBox3
+            // btnSua
             // 
-            this.textBox3.Location = new System.Drawing.Point(587, 37);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox3.Multiline = true;
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(141, 20);
-            this.textBox3.TabIndex = 13;
+            this.btnSua.Location = new System.Drawing.Point(514, 116);
+            this.btnSua.Name = "btnSua";
+            this.btnSua.Size = new System.Drawing.Size(104, 33);
+            this.btnSua.TabIndex = 21;
+            this.btnSua.Text = "Sửa";
+            this.btnSua.UseVisualStyleBackColor = true;
+            this.btnSua.Click += new System.EventHandler(this.btnSua_Click);
             // 
-            // textBox4
+            // btnXoa
             // 
-            this.textBox4.Location = new System.Drawing.Point(212, 92);
-            this.textBox4.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox4.Multiline = true;
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(141, 20);
-            this.textBox4.TabIndex = 14;
-            // 
-            // textBox5
-            // 
-            this.textBox5.Location = new System.Drawing.Point(466, 92);
-            this.textBox5.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox5.Multiline = true;
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(141, 20);
-            this.textBox5.TabIndex = 15;
+            this.btnXoa.Location = new System.Drawing.Point(673, 116);
+            this.btnXoa.Name = "btnXoa";
+            this.btnXoa.Size = new System.Drawing.Size(104, 33);
+            this.btnXoa.TabIndex = 22;
+            this.btnXoa.Text = "Xóa";
+            this.btnXoa.UseVisualStyleBackColor = true;
+            this.btnXoa.Click += new System.EventHandler(this.btnXoa_Click);
             // 
             // Form6
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(799, 443);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
+            this.ClientSize = new System.Drawing.Size(1065, 545);
+            this.Controls.Add(this.btnXoa);
+            this.Controls.Add(this.btnSua);
+            this.Controls.Add(this.btnThem);
+            this.Controls.Add(this.txtDexuat);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.txtYkien);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.txtMota);
+            this.Controls.Add(this.txtTrangthai);
+            this.Controls.Add(this.txtGia);
+            this.Controls.Add(this.txtTensan);
             this.Controls.Add(this.listView1);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtMasan);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.menuStrip1);
-            this.MainMenuStrip = this.menuStrip1;
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Form6";
             this.Text = "Quản lý sân bóng";
             this.Load += new System.EventHandler(this.Form6_Load);
-            this.menuStrip1.ResumeLayout(false);
-            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -312,29 +259,22 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem thêmToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem xoaToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem sưaToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem lưuToolStripMenuItem;
+        private System.Windows.Forms.TextBox txtMasan;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.ListView listView1;
-        private System.Windows.Forms.ColumnHeader columnHeader1;
-        private System.Windows.Forms.ColumnHeader columnHeader2;
-        private System.Windows.Forms.ColumnHeader columnHeader3;
-        private System.Windows.Forms.ColumnHeader columnHeader4;
-        private System.Windows.Forms.ColumnHeader columnHeader5;
-        private System.Windows.Forms.ColumnHeader columnHeader6;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.ToolStripMenuItem thoatToolStripMenuItem;
-        private System.Windows.Forms.ColumnHeader columnHeader7;
-        private System.Windows.Forms.ColumnHeader columnHeader8;
+        private System.Windows.Forms.TextBox txtTensan;
+        private System.Windows.Forms.TextBox txtGia;
+        private System.Windows.Forms.TextBox txtTrangthai;
+        private System.Windows.Forms.TextBox txtMota;
+        private System.Windows.Forms.TextBox txtYkien;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.TextBox txtDexuat;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Button btnThem;
+        private System.Windows.Forms.Button btnSua;
+        private System.Windows.Forms.Button btnXoa;
     }
 }
