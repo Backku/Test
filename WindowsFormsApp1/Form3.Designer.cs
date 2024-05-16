@@ -31,32 +31,33 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
-            this.linkLabel2 = new System.Windows.Forms.LinkLabel();
+            this.txtTaikhoan = new System.Windows.Forms.TextBox();
+            this.txtMatkhau = new System.Windows.Forms.TextBox();
+            this.checkBoxLuumk = new System.Windows.Forms.CheckBox();
+            this.btnDangnhap = new System.Windows.Forms.Button();
+            this.linkLabelTaotk = new System.Windows.Forms.LinkLabel();
+            this.linkLabelQuenmk = new System.Windows.Forms.LinkLabel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(257, 7);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Location = new System.Drawing.Point(343, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(265, 31);
+            this.label1.Size = new System.Drawing.Size(320, 38);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Đăng nhập hệ thống ";            // 
+            this.label1.Text = "Đăng nhập hệ thống ";
+            // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(157, 100);
-            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label2.Location = new System.Drawing.Point(210, 208);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(78, 20);
+            this.label2.Size = new System.Drawing.Size(99, 25);
             this.label2.TabIndex = 1;
             this.label2.Text = "Tài khoản";
             // 
@@ -64,97 +65,108 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(157, 152);
-            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label3.Location = new System.Drawing.Point(210, 272);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(75, 20);
+            this.label3.Size = new System.Drawing.Size(93, 25);
             this.label3.TabIndex = 2;
             this.label3.Text = "Mật khẩu";
             // 
-            // textBox1
+            // txtTaikhoan
             // 
-            this.textBox1.Location = new System.Drawing.Point(262, 100);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(219, 20);
-            this.textBox1.TabIndex = 3;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.txtTaikhoan.Location = new System.Drawing.Point(350, 208);
+            this.txtTaikhoan.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtTaikhoan.Name = "txtTaikhoan";
+            this.txtTaikhoan.Size = new System.Drawing.Size(291, 22);
+            this.txtTaikhoan.TabIndex = 3;
             // 
-            // textBox2
+            // txtMatkhau
             // 
-            this.textBox2.Location = new System.Drawing.Point(262, 155);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(219, 20);
-            this.textBox2.TabIndex = 4;
+            this.txtMatkhau.Location = new System.Drawing.Point(350, 276);
+            this.txtMatkhau.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtMatkhau.Name = "txtMatkhau";
+            this.txtMatkhau.Size = new System.Drawing.Size(291, 22);
+            this.txtMatkhau.TabIndex = 4;
             // 
-            // checkBox1
+            // checkBoxLuumk
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox1.Location = new System.Drawing.Point(262, 194);
-            this.checkBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(113, 21);
-            this.checkBox1.TabIndex = 5;
-            this.checkBox1.Text = "Lưu mật khẩu";
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.checkBoxLuumk.AutoSize = true;
+            this.checkBoxLuumk.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBoxLuumk.Location = new System.Drawing.Point(350, 324);
+            this.checkBoxLuumk.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.checkBoxLuumk.Name = "checkBoxLuumk";
+            this.checkBoxLuumk.Size = new System.Drawing.Size(132, 24);
+            this.checkBoxLuumk.TabIndex = 5;
+            this.checkBoxLuumk.Text = "Lưu mật khẩu";
+            this.checkBoxLuumk.UseVisualStyleBackColor = true;
+            this.checkBoxLuumk.CheckedChanged += new System.EventHandler(this.checkBoxLuumk_CheckedChanged);
             // 
-            // button1
+            // btnDangnhap
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(262, 268);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(212, 43);
-            this.button1.TabIndex = 8;
-            this.button1.Text = "Đăng nhập";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnDangnhap.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDangnhap.Location = new System.Drawing.Point(350, 415);
+            this.btnDangnhap.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnDangnhap.Name = "btnDangnhap";
+            this.btnDangnhap.Size = new System.Drawing.Size(283, 53);
+            this.btnDangnhap.TabIndex = 8;
+            this.btnDangnhap.Text = "Đăng nhập";
+            this.btnDangnhap.UseVisualStyleBackColor = true;
+            this.btnDangnhap.Click += new System.EventHandler(this.button1_Click);
             // 
-            // linkLabel1
+            // linkLabelTaotk
             // 
-            this.linkLabel1.AutoSize = true;
-            this.linkLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkLabel1.LinkColor = System.Drawing.Color.Black;
-            this.linkLabel1.Location = new System.Drawing.Point(419, 194);
-            this.linkLabel1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(95, 17);
-            this.linkLabel1.TabIndex = 9;
-            this.linkLabel1.TabStop = true;
-            this.linkLabel1.Text = "Tạo tài khoản";
+            this.linkLabelTaotk.AutoSize = true;
+            this.linkLabelTaotk.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkLabelTaotk.LinkColor = System.Drawing.Color.Black;
+            this.linkLabelTaotk.Location = new System.Drawing.Point(560, 324);
+            this.linkLabelTaotk.Name = "linkLabelTaotk";
+            this.linkLabelTaotk.Size = new System.Drawing.Size(109, 20);
+            this.linkLabelTaotk.TabIndex = 9;
+            this.linkLabelTaotk.TabStop = true;
+            this.linkLabelTaotk.Text = "Tạo tài khoản";
+            this.linkLabelTaotk.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabelTaotk_LinkClicked);
             // 
-            // linkLabel2
+            // linkLabelQuenmk
             // 
-            this.linkLabel2.AutoSize = true;
-            this.linkLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkLabel2.LinkColor = System.Drawing.Color.Black;
-            this.linkLabel2.Location = new System.Drawing.Point(419, 225);
-            this.linkLabel2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.linkLabel2.Name = "linkLabel2";
-            this.linkLabel2.Size = new System.Drawing.Size(105, 17);
-            this.linkLabel2.TabIndex = 10;
-            this.linkLabel2.TabStop = true;
-            this.linkLabel2.Text = "Quên mật khẩu";
+            this.linkLabelQuenmk.AutoSize = true;
+            this.linkLabelQuenmk.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkLabelQuenmk.LinkColor = System.Drawing.Color.Black;
+            this.linkLabelQuenmk.Location = new System.Drawing.Point(560, 362);
+            this.linkLabelQuenmk.Name = "linkLabelQuenmk";
+            this.linkLabelQuenmk.Size = new System.Drawing.Size(122, 20);
+            this.linkLabelQuenmk.TabIndex = 10;
+            this.linkLabelQuenmk.TabStop = true;
+            this.linkLabelQuenmk.Text = "Quên mật khẩu";
+            this.linkLabelQuenmk.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabelQuenmk_LinkClicked);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::WindowsFormsApp1.Properties.Resources.z4411630412865_aa9e590520cbaf5cb65f61eaf7244723;
+            this.pictureBox1.Location = new System.Drawing.Point(402, 70);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(173, 112);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 11;
+            this.pictureBox1.TabStop = false;
             // 
             // Form3
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(770, 461);
-            this.Controls.Add(this.linkLabel2);
-            this.Controls.Add(this.linkLabel1);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.checkBox1);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.ClientSize = new System.Drawing.Size(1027, 567);
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.linkLabelQuenmk);
+            this.Controls.Add(this.linkLabelTaotk);
+            this.Controls.Add(this.btnDangnhap);
+            this.Controls.Add(this.checkBoxLuumk);
+            this.Controls.Add(this.txtMatkhau);
+            this.Controls.Add(this.txtTaikhoan);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Form3";
             this.Text = "Form3";
-            this.Load += new System.EventHandler(this.Form3_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -165,11 +177,12 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.LinkLabel linkLabel1;
-        private System.Windows.Forms.LinkLabel linkLabel2;
+        private System.Windows.Forms.TextBox txtTaikhoan;
+        private System.Windows.Forms.TextBox txtMatkhau;
+        private System.Windows.Forms.CheckBox checkBoxLuumk;
+        private System.Windows.Forms.Button btnDangnhap;
+        private System.Windows.Forms.LinkLabel linkLabelTaotk;
+        private System.Windows.Forms.LinkLabel linkLabelQuenmk;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
